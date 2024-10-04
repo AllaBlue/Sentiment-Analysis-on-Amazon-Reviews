@@ -1,0 +1,50 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files
+data/*.csv
+data/*.json
+data/*.xlsx
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore temporary files
+*.swp
+*.swo
+*.tmp
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled output
+*.so
+*.dll
+*.dylib
+
+# Ignore model files (if any large pre-trained models are stored locally)
+*.h5
+*.pth
+*.pt
+*.ckpt
+
+# Ignore presentation or other large media files
+*.pptx
+*.mp4
+*.png
+*.jpg
+*.jpeg
+
+# Ignore environment-specific files
+.env
